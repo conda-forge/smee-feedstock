@@ -22,6 +22,11 @@ outputs:
         - python >=3.10
         - pip
         - versioningit
+        - openff-units
+        - openff-toolkit-base >=0.9.2
+        - openff-interchange-base >=0.3.14
+        - pytorch
+        - nnpops
       run:
         - python >=3.10
         - openff-units
