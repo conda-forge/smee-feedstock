@@ -26,13 +26,9 @@ outputs:
         - python >=3.10
         - openff-units
         - openff-toolkit-base >=0.9.2
-        - openff-interchange-base >0.3.16
+        - openff-interchange-base >=0.3.14
         - pytorch  # [unix]
-        - pydantic
-        # included for convenience so that the openff toolkit can
-        # parameterize molecules without needing extra installs
-        - rdkit
-        - ambertools  # [unix]
+        - nnpops
         - __unix  # [unix]
     test:
       imports:
@@ -52,6 +48,12 @@ outputs:
         - packmol
         - numpy
         - msgpack-python
+        - pydantic
+        # included for convenience so that the openff toolkit can
+        # parameterize molecules without needing extra installs
+        - rdkit
+        - ambertools  # [unix]
+        - __unix  # [unix]
     test:
       imports:
         - smee
