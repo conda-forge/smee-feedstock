@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/SimonBoothroyd/smee/archive/{{ version }}.tar.gz
-  sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  sha256: 9dc3c34f7f95e47b805f16b7dfc6ba1f53aa99279de9f441d7452c0b2c0626a0
 
 build:
   number: 0
