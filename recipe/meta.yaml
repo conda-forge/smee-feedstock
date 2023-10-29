@@ -69,7 +69,7 @@ about:
   description: |
     A framework that aims to offer a simple API for differentiably evaluating 
     the energy of SMIRNOFF force fields applied to molecules using pytorch.
-  license: MIT AND BSD-3-Clause
+  license: MIT
   license_file:
     - LICENSE
     - LICENSE_3RD_PARTY
