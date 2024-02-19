@@ -72,7 +72,6 @@ about:
   license: MIT
   license_file:
     - LICENSE
-    - LICENSE_3RD_PARTY
   doc_url: https://github.com/SimonBoothroyd/smee
   dev_url: https://github.com/SimonBoothroyd/smee
 
