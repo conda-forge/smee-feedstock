@@ -31,6 +31,9 @@ outputs:
         - pytorch  # [unix]
         - nnpops
         - __unix  # [unix]
+    test:
+      imports:
+        - smee
 
   - name: {{ name|lower }}
     build:
