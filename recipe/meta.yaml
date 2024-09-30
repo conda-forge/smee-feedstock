@@ -50,6 +50,7 @@ outputs:
         - numpy
         - msgpack-python
         - pydantic
+        - pydantic_units
         # included for convenience so that the openff toolkit can
         # parameterize molecules without needing extra installs
         - rdkit
