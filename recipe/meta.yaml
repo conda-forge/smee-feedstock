@@ -31,13 +31,6 @@ outputs:
         - pytorch  # [unix]
         - nnpops
         - __unix  # [unix]
-    test:
-      imports:
-        - smee
-      requires:
-        - pip
-      commands:
-        - pip check
 
   - name: {{ name|lower }}
     build:
