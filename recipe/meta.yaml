@@ -58,10 +58,6 @@ outputs:
     test:
       imports:
         - smee
-      requires:
-        - pip
-      commands:
-        - pip check
 
 about:
   home: https://github.com/SimonBoothroyd/smee
