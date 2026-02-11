@@ -11,7 +11,7 @@ source:
   sha256: 017491159dc9effe01dfde7ca20d73344f46e2ffcdfd08d402eba64abb187abf
 
 build:
-  number: 1
+  number: 2
 
 outputs:
   - name: {{ name|lower }}-base
@@ -57,7 +57,6 @@ outputs:
         # included for convenience so that the openff toolkit can
         # parameterize molecules without needing extra installs
         - rdkit
-        - ambertools  # [unix]
         - __unix  # [unix]
     test:
       requires:
