@@ -7,15 +7,15 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/smee-feedstock/
 About smee-split
 ----------------
 
-Home: https://github.com/SimonBoothroyd/smee
+Home: https://github.com/openforcefield/smee
 
 Package license: MIT
 
 Summary: Differentiably evaluate energies using SMIRNOFF force fields
 
-Development: https://github.com/SimonBoothroyd/smee
+Development: https://github.com/openforcefield/smee
 
-Documentation: https://github.com/SimonBoothroyd/smee
+Documentation: https://github.com/openforcefield/smee
 
 A framework that aims to offer a simple API for differentiably evaluating 
 the energy of SMIRNOFF force fields applied to molecules using pytorch.
@@ -24,15 +24,15 @@ the energy of SMIRNOFF force fields applied to molecules using pytorch.
 About smee
 ----------
 
-Home: https://github.com/SimonBoothroyd/smee
+Home: https://github.com/openforcefield/smee
 
 Package license: MIT
 
 Summary: Differentiably evaluate energies using SMIRNOFF force fields
 
-Development: https://github.com/SimonBoothroyd/smee
+Development: https://github.com/openforcefield/smee
 
-Documentation: https://github.com/SimonBoothroyd/smee
+Documentation: https://github.com/openforcefield/smee
 
 A framework that aims to offer a simple API for differentiably evaluating
 the energy of SMIRNOFF force fields applied to molecules using pytorch.
@@ -41,15 +41,15 @@ the energy of SMIRNOFF force fields applied to molecules using pytorch.
 About smee-base
 ---------------
 
-Home: https://github.com/SimonBoothroyd/smee
+Home: https://github.com/openforcefield/smee
 
 Package license: MIT
 
 Summary: Differentiably evaluate energies using SMIRNOFF force fields
 
-Development: https://github.com/SimonBoothroyd/smee
+Development: https://github.com/openforcefield/smee
 
-Documentation: https://github.com/SimonBoothroyd/smee
+Documentation: https://github.com/openforcefield/smee
 
 A framework that aims to offer a simple API for differentiably evaluating
 the energy of SMIRNOFF force fields applied to molecules using pytorch.
