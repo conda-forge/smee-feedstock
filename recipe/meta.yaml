@@ -1,6 +1,6 @@
-{% set python_min = '3.10' %}
+{% set python_min = "3.10" %}
 {% set name = "smee" %}
-{% set version = "0.16.2" %}
+{% set version = "0.17.0" %}
 
 package:
   name: {{ name|lower }}-split
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://github.com/SimonBoothroyd/smee/archive/{{ version }}.tar.gz
-  sha256: 017491159dc9effe01dfde7ca20d73344f46e2ffcdfd08d402eba64abb187abf
+  sha256: 5ec61e50b4e3f3839221780715d8219c56ed60ee67f5db6e430f8beb6ceeef28
 
 build:
-  number: 1
+  number: 0
 
 outputs:
   - name: {{ name|lower }}-base
