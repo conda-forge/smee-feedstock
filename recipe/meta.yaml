@@ -1,17 +1,17 @@
-{% set python_min = '3.10' %}
+{% set python_min = '3.11' %}
 {% set name = "smee" %}
-{% set version = "0.16.2" %}
+{% set version = "0.17.0" %}
 
 package:
   name: {{ name|lower }}-split
   version: {{ version }}
 
 source:
-  url: https://github.com/SimonBoothroyd/smee/archive/{{ version }}.tar.gz
-  sha256: 017491159dc9effe01dfde7ca20d73344f46e2ffcdfd08d402eba64abb187abf
+  url: https://github.com/openforcefield/smee/archive/{{ version }}.tar.gz
+  sha256: 5ec61e50b4e3f3839221780715d8219c56ed60ee67f5db6e430f8beb6ceeef28
 
 build:
-  number: 1
+  number: 0
 
 outputs:
   - name: {{ name|lower }}-base
@@ -57,7 +57,6 @@ outputs:
         # included for convenience so that the openff toolkit can
         # parameterize molecules without needing extra installs
         - rdkit
-        - ambertools  # [unix]
         - __unix  # [unix]
     test:
       requires:
@@ -66,7 +65,7 @@ outputs:
         - smee
 
 about:
-  home: https://github.com/SimonBoothroyd/smee
+  home: https://github.com/openforcefield/smee
   summary: 'Differentiably evaluate energies using SMIRNOFF force fields'
   description: |
     A framework that aims to offer a simple API for differentiably evaluating 
@@ -74,8 +73,8 @@ about:
   license: MIT
   license_file:
     - LICENSE
-  doc_url: https://github.com/SimonBoothroyd/smee
-  dev_url: https://github.com/SimonBoothroyd/smee
+  doc_url: https://github.com/openforcefield/smee
+  dev_url: https://github.com/openforcefield/smee
 
 extra:
   recipe-maintainers:
